@@ -11,6 +11,15 @@ int main() {
   // while (a > 0) {
   //   scanf("%d", &a);
   // };
+  int arr[5] = {1, 2, 3, 4, 5};
+  int arr1[] = {1, 2, 3, 4, 5}; // любая размерность но ТИП
+  printf("%d\n", arr[2]);       // answer 3
+
+  float arr3[3];
+  arr3[0] = 1.4f;
+  arr3[1] = 1.2f;
+  arr3[2] = 1.3f;
+  printf("%f\n", arr3[2]);
 
   int chet = 0;
   int nechet = 0;
@@ -23,6 +32,16 @@ int main() {
     }
   }
   printf(" %d, %d\n", chet, nechet);
+
+  int x1 = 14;
+  switch (x1) {
+  case 10:
+    printf("10");
+    break;
+  case 14:
+    printf("14");
+    break;
+  }
 
   return 0;
 }
